@@ -41,6 +41,7 @@ HIJKLMNOPQRSTUVWXYZ]* vs ls /usr/sbin/[A-Z]*
 
 POSIX character classes
 |character class|description|
+|---------------|-----------|
 |[:alnum:]|In ASCII, [A-Za-z0-9]|
 |[:word:]|same as [:alnum:], add _ |
 |[:alpha:]|In Ascii, [A-Za-z] |
