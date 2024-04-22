@@ -49,4 +49,14 @@ POSIX character classes
 |[:upper:]|In ASCII, [A-Z] |
 |[:lower:]|In ASCII, [a-z] |
 
+```shell
+for i in {1..10};
+do
+    echo "(${RANDOM:0:3}) ${RANDOM:0:3}-${RANDOM:0:4}" >> phone_list.txt
+done
+
+grep -Ev '^\([0-9]{3}\) [0-9]{3}-[0-9]{4}$' phone_list.txt
+```
+
+
 
