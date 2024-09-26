@@ -1,4 +1,21 @@
 ```shell
+# increment number or decrease number in vim
+# in normal mode, type as following
+# suppose you type this line: 101 This is an item.
+# qa
+# Y
+# p
+# Ctrl-A
+# q
+# 15@a
+# you will see
+# 101 This is an item.
+# 102 This is an item.
+# 103 This is an item.
+# and so on
+```
+
+```shell
 cat > foo.txt
 
 # -A to print out non-printable characters

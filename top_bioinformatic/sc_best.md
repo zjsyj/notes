@@ -57,7 +57,7 @@ adata对象中发现的基因作为该细胞类型的标记基因
 
 
 ## 差异表达基因分析
-(url)[https://zhuanlan.zhihu.com/p/675912947]
+[url](https://zhuanlan.zhihu.com/p/675912947)
 讲解了单细胞数据的差异表达基因分析方法, 详细对比了ttest与DEseq2
 在所有细胞进行差异表达分析的异同, 以及为什么要使用元细胞分析的原因
 
