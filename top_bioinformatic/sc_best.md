@@ -54,6 +54,30 @@ adata对象中发现的基因作为该细胞类型的标记基因
 我们一般会使用t-test或者秩和检验来计算不同簇的差异表达基因
 
 #### 基于 marker 数据库的注释
+[Tumor editting, mouse](https://www.nature.com/articles/s41590-024-01932-8#data-availability)
+| Category                     | Cell Type / Subtype          | Marker Genes                        |
+| ---------------------------- | ---------------------------- | ----------------------------------- |
+| **Immune Cells**             | B cells                      | Cd79+                               |
+|                              | T cells                      | Cd3d+                               |
+|                              | NK cells                     | Ncr1+                               |
+|                              | Macrophages                  | Cd14+, Lyz2+, Cd74+                 |
+|                              | Neutrophils                  | S100a9+, Cd14+                      |
+| **T Cells (CD4+)**           | CD4+ T cells                 | Cd4+                                |
+|                              | Treg                         | Cd4+, Foxp3+                        |
+| **T Cells (CD8+)**           | CD8+ T cells                 | Cd8a+, Cd8b1+                       |
+|                              | Naive                        | Ccr7+, Cd62l+ (Sell), Cd127+ (Il7r) |
+|                              | Central Memory               | Ccr7+, Cd62l+, Cd44+                |
+|                              | ISG                          | Isg15+, Ifit1+, Irf7+               |
+|                              | Effector                     | Ccr7−, Cd62l−, Cd127−, Cd44+        |
+|                              | Tissue Resident Memory (TRM) | Cd103+ (Itgae), Fcer1g+             |
+|                              | Progenitor Exhausted         | Tcf7+, Bach2+, Pdcd1+               |
+|                              | Exhausted                    | Tcf7−, Pdcd1+                       |
+|                              | Proliferating                | Mki67+                              |
+| **Mammary Epithelial Cells** | Luminal-Alveolar (Alv1–4)    | Csn3+, Elf5+                        |
+|                              | Alveolar Proliferating       | Mki67+                              |
+|                              | Basal                        | Krt14+                              |
+|                              | Alveolar-Basal-Luminal       | Aldh1a3+                            |
+|                              | Hormone Sensing              | Esr1+, Krt19+, Prlr+                |
 
 
 ## 差异表达基因分析
