@@ -89,3 +89,5 @@ adata对象中发现的基因作为该细胞类型的标记基因
 Bulk(pseudo-bulk) 的方法来聚合单细胞数据, 从而进行差异表达分析
 
 https://www.proteinatlas.org/
+
+
